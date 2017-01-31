@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmotionPlatzi.Web", "EmotionPlatzi.Web\EmotionPlatzi.Web.csproj", "{B032D4A8-49EA-4E1A-BFFE-B53CDF795AAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B032D4A8-49EA-4E1A-BFFE-B53CDF795AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B032D4A8-49EA-4E1A-BFFE-B53CDF795AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B032D4A8-49EA-4E1A-BFFE-B53CDF795AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B032D4A8-49EA-4E1A-BFFE-B53CDF795AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
