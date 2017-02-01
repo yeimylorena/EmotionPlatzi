@@ -29,9 +29,10 @@ namespace EmotionPlatzi.Web
 
             //Serialización BINARIA | JSON
             //Resuelve error de referencia circulares
-            config.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling
-                = ReferenceLoopHandling.Ignore;
-                
+            //config.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling
+                //  = ReferenceLoopHandling.Ignore;
+               config.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Serialize;
+                config.Formatters.JsonFormatter.SerializerSettings.PreserveReferencesHandling = PreserveReferencesHandling.Objects;
 
         }
     }

@@ -16,7 +16,7 @@ namespace EmotionPlatzi.Web.Controllers
         string serverFolderPath;
         EmotionHelper emoHelper;
         string key;
-        EmotionPlatziWebContext db;
+        EmotionPlatziWebContext db = new EmotionPlatziWebContext();
 
         public EmoUploaderController()
         {

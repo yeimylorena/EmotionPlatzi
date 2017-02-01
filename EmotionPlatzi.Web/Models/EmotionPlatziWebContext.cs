@@ -20,6 +20,7 @@ namespace EmotionPlatzi.Web.Models
         {
             //Tipo del DataContext (podría ser una clase aparte
             Database.SetInitializer<EmotionPlatziWebContext>(
+              //  new DropCreateDatabaseAlways
                 new DropCreateDatabaseIfModelChanges<EmotionPlatziWebContext>());
 
                 //new MigrateDatabaseToLatestVersion
